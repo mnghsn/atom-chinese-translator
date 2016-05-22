@@ -1,0 +1,41 @@
+{
+  "name": "chinese-translator",
+  "version": "0.0.0",
+  "description": "Translates between Traditional Chinese and Simplified Chinese.",
+  "keywords": [
+    "chinese",
+    "traditional",
+    "simplified",
+    "translate",
+    "translator",
+    "convert",
+    "converter",
+    "opencc"
+  ],
+  "author": "Jimmy Lin",
+  "license": "MIT",
+  "repository": "https://github.com/jmlntw/atom-chinese-translator",
+  "private": true,
+  "main": "./lib/chinese-translator",
+  "activationCommands": {
+    "atom-text-editor": [
+      "chinese-translator:traditional-chinese-to-simplified-chinese",
+      "chinese-translator:traditional-chinese-to-taiwan-standard",
+      "chinese-translator:traditional-chinese-to-hong-kong-standard",
+      "chinese-translator:simplified-chinese-to-traditional-chinese",
+      "chinese-translator:simplified-chinese-to-taiwan-standard",
+      "chinese-translator:simplified-chinese-to-taiwan-standard-with-phrases",
+      "chinese-translator:simplified-chinese-to-hong-kong-standard",
+      "chinese-translator:taiwan-standard-to-simplified-chinese",
+      "chinese-translator:taiwan-standard-to-simplified-chinese-with-phrases",
+      "chinese-translator:hong-kong-standard-to-simplified-chinese"
+    ]
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "node-opencc": "0.0.2"
+  }
+}
