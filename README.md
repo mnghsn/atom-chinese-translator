@@ -14,7 +14,7 @@ Search for `chinese-translator` in the Atom settings view or run `apm install ch
 
 All of the following commands are under the `atom-text-editor` selector.
 
-If any lines are selected in the active buffer, the commands operate on the selected lines. Otherwise, the commands operate on all lines in the active buffer.
+If any text are selected in the active buffer, the commands operate on the selected text. Otherwise, the commands operate on all text in the active buffer.
 
 | Commands                                                                | Description                                                             |
 | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- |
