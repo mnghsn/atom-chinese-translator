@@ -1,5 +1,7 @@
 # Chinese Translator for Atom Editor
 
+![Travis CI Build Status](https://img.shields.io/travis/jmlntw/atom-chinese-translator.svg?maxAge=86400)
+
 **chinese-translator** translates between Traditional Chinese and Simplified Chinese in Atom editor, with the dictionary of localized phrases and verbs. Powered by [node-opencc](https://github.com/compulim/node-opencc).
 
 ![A screenshot of chinese-translator](https://raw.githubusercontent.com/jmlntw/atom-chinese-translator/master/screenshot.gif)
