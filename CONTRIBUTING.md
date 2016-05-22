@@ -1,0 +1,67 @@
+# Contributing
+> Do One Thing and Do It Well
+
+## Styleguides
+
+### Syntax
+
+* Use [editorconfig](http://editorconfig.org/) to unify coding styles.
+* Use 2 spaces indentation.
+* Use UTF-8 encoding without BOM.
+* Use Unix-style line endings (`LF`).
+* End files with a newline.
+* Remove any trailing whitespace characters except in Markdown files where a line-break must be forced.
+* Keep line length less than 120 characters, preferably less than 80 characters.
+* When in doubt, follow the conventions you see used in the source already.
+
+### Git Commit Messages
+
+* Use the present tense. (“Add feature” not “Added feature”.)
+* Use the imperative mood. (“Move cursor to...” not “Moves cursor to...”.)
+* Capitalize the summary line (first line).
+* Do not end the summary line with a period.
+* Limit the summary line to 50 characters or less.
+* Always leave the second line blank.
+* Wrap the description at 72 characters.
+* Reference issues and pull requests liberally.
+
+## Issue Reporting Guidelines
+
+* Bugs and enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/).
+* Try to search for your issue before submitting it. It may have already been answered or fixed.
+* Check if the issue is reproducible with the last stable version.
+* Use a clear and descriptive title for the issue.
+* When reporting a bug, describe the exact steps which reproduce the problem.
+* Include screenshots whenever possible.
+* Include your environment like Atom version and OS version.
+
+## Pull Request Guidelines
+
+* Create a topic branch from `master`.
+* Follow the [styleguides](#styleguides).
+* Squash the commit if there are too many small ones.
+* Make sure `apm --test` passes. (See [Development Setup](#development-setup).)
+* When adding a new feature:
+  * Provide convincing reasons to add this feature. It is recommended to open a suggestion issue first.
+  * Add accompanying test case.
+* When fixing a bug:
+  * Provide a detailed description in the PR.
+  * Add appropriate test coverage if applicable.
+
+## Development Setup
+
+You will need [Node.js](https://nodejs.org/) and [Atom](https://atom.io/).
+
+```bash
+# Fork and clone this repository.
+$ git clone https://github.com/<username>/atom-chinese-translator.git
+$ cd atom-chinese-translator
+
+# Install dependencies before hacking
+$ npm install
+
+# Run Atom package specs to make sure everything works fine.
+$ atom --test --timeout 60 ./spec/
+```
+
+For more information about Atom package specs, see [Hacking Atom: Writing specs](http://flight-manual.atom.io/hacking-atom/sections/writing-specs/) section in the [Atom Flight Manual](http://flight-manual.atom.io/).
