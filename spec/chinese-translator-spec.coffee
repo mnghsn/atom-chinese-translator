@@ -3,7 +3,7 @@ describe 'Chinese Translator', ->
 
   hasCommand = (element, name) ->
     commands = atom.commands.findCommands(target: element)
-    for command in commands when command.name is name
+    for command in commands when command.name is "chinese-translator:#{name}"
       return true
 
   translate = (command, callback) ->
@@ -28,31 +28,31 @@ describe 'Chinese Translator', ->
 
   describe 'when the package activates', ->
     it 'creates the commands', ->
-      expect(hasCommand(editorView, 'chinese-translator:traditional-chinese-to-simplified-chinese')).toBeTruthy()
-      expect(hasCommand(editorView, 'chinese-translator:traditional-chinese-to-taiwan-standard')).toBeTruthy()
-      expect(hasCommand(editorView, 'chinese-translator:traditional-chinese-to-hong-kong-standard')).toBeTruthy()
-      expect(hasCommand(editorView, 'chinese-translator:simplified-chinese-to-traditional-chinese')).toBeTruthy()
-      expect(hasCommand(editorView, 'chinese-translator:simplified-chinese-to-taiwan-standard')).toBeTruthy()
-      expect(hasCommand(editorView, 'chinese-translator:simplified-chinese-to-taiwan-standard-with-phrases')).toBeTruthy()
-      expect(hasCommand(editorView, 'chinese-translator:simplified-chinese-to-hong-kong-standard')).toBeTruthy()
-      expect(hasCommand(editorView, 'chinese-translator:taiwan-standard-to-simplified-chinese')).toBeTruthy()
-      expect(hasCommand(editorView, 'chinese-translator:taiwan-standard-to-simplified-chinese-with-phrases')).toBeTruthy()
-      expect(hasCommand(editorView, 'chinese-translator:hong-kong-standard-to-simplified-chinese')).toBeTruthy()
+      expect(hasCommand(editorView, 'traditional-chinese-to-simplified-chinese')).toBeTruthy()
+      expect(hasCommand(editorView, 'traditional-chinese-to-taiwan-standard')).toBeTruthy()
+      expect(hasCommand(editorView, 'traditional-chinese-to-hong-kong-standard')).toBeTruthy()
+      expect(hasCommand(editorView, 'simplified-chinese-to-traditional-chinese')).toBeTruthy()
+      expect(hasCommand(editorView, 'simplified-chinese-to-taiwan-standard')).toBeTruthy()
+      expect(hasCommand(editorView, 'simplified-chinese-to-taiwan-standard-with-phrases')).toBeTruthy()
+      expect(hasCommand(editorView, 'simplified-chinese-to-hong-kong-standard')).toBeTruthy()
+      expect(hasCommand(editorView, 'taiwan-standard-to-simplified-chinese')).toBeTruthy()
+      expect(hasCommand(editorView, 'taiwan-standard-to-simplified-chinese-with-phrases')).toBeTruthy()
+      expect(hasCommand(editorView, 'hong-kong-standard-to-simplified-chinese')).toBeTruthy()
 
   describe 'when the package deactivates', ->
     beforeEach ->
       atom.packages.deactivatePackage('chinese-translator')
     it 'removes all commands', ->
-      expect(hasCommand(editorView, 'chinese-translator:traditional-chinese-to-simplified-chinese')).toBeFalsy()
-      expect(hasCommand(editorView, 'chinese-translator:traditional-chinese-to-taiwan-standard')).toBeFalsy()
-      expect(hasCommand(editorView, 'chinese-translator:traditional-chinese-to-hong-kong-standard')).toBeFalsy()
-      expect(hasCommand(editorView, 'chinese-translator:simplified-chinese-to-traditional-chinese')).toBeFalsy()
-      expect(hasCommand(editorView, 'chinese-translator:simplified-chinese-to-taiwan-standard')).toBeFalsy()
-      expect(hasCommand(editorView, 'chinese-translator:simplified-chinese-to-taiwan-standard-with-phrases')).toBeFalsy()
-      expect(hasCommand(editorView, 'chinese-translator:simplified-chinese-to-hong-kong-standard')).toBeFalsy()
-      expect(hasCommand(editorView, 'chinese-translator:taiwan-standard-to-simplified-chinese')).toBeFalsy()
-      expect(hasCommand(editorView, 'chinese-translator:taiwan-standard-to-simplified-chinese-with-phrases')).toBeFalsy()
-      expect(hasCommand(editorView, 'chinese-translator:hong-kong-standard-to-simplified-chinese')).toBeFalsy()
+      expect(hasCommand(editorView, 'traditional-chinese-to-simplified-chinese')).toBeFalsy()
+      expect(hasCommand(editorView, 'traditional-chinese-to-taiwan-standard')).toBeFalsy()
+      expect(hasCommand(editorView, 'traditional-chinese-to-hong-kong-standard')).toBeFalsy()
+      expect(hasCommand(editorView, 'simplified-chinese-to-traditional-chinese')).toBeFalsy()
+      expect(hasCommand(editorView, 'simplified-chinese-to-taiwan-standard')).toBeFalsy()
+      expect(hasCommand(editorView, 'simplified-chinese-to-taiwan-standard-with-phrases')).toBeFalsy()
+      expect(hasCommand(editorView, 'simplified-chinese-to-hong-kong-standard')).toBeFalsy()
+      expect(hasCommand(editorView, 'taiwan-standard-to-simplified-chinese')).toBeFalsy()
+      expect(hasCommand(editorView, 'taiwan-standard-to-simplified-chinese-with-phrases')).toBeFalsy()
+      expect(hasCommand(editorView, 'hong-kong-standard-to-simplified-chinese')).toBeFalsy()
 
   describe 'when no text is selected', ->
     it 'translates all text in the editor', ->
