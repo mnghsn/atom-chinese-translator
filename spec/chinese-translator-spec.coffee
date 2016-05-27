@@ -3,8 +3,8 @@ describe 'Chinese Translator', ->
 
   hasCommand = (element, name) ->
     commands = atom.commands.findCommands(target: element)
-    found = true for command in commands when command.name is name
-    found
+    for command in commands when command.name is name
+      return true
 
   translate = (command, callback) ->
     atom.commands.dispatch(editorView, "chinese-translator:#{command}")
