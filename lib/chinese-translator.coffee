@@ -42,5 +42,5 @@ translate = (editor, translator) ->
   availableRanges = RangeFinder.rangesFor(editor)
   availableRanges.forEach (range) ->
     text = editor.getTextInBufferRange(range)
-    opencc[translator](text).then (result) ->
-      editor.setTextInBufferRange(range, result)
+    result = opencc[translator](text)
+    editor.setTextInBufferRange(range, result)
