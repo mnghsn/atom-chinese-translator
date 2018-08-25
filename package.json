@@ -14,10 +14,10 @@
   ],
   "author": {
     "name": "Jimmy Lin",
-    "email": "jmlntw@gmail.com",
-    "url": "https://jmln.tw/"
+    "email": "jmlntw@gmail.com"
   },
   "license": "MIT",
+  "homepage": "https://atom.io/packages/chinese-translator",
   "repository": {
     "type": "git",
     "url": "https://github.com/jmlntw/atom-chinese-translator.git"
@@ -25,8 +25,14 @@
   "bugs": {
     "url": "https://github.com/jmlntw/atom-chinese-translator/issues"
   },
-  "private": true,
   "main": "./lib/chinese-translator",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "node-opencc": "^2.0.0"
+  },
+  "private": true,
   "activationCommands": {
     "atom-text-editor": [
       "chinese-translator:traditional-chinese-to-simplified-chinese",
@@ -40,11 +46,5 @@
       "chinese-translator:taiwan-standard-to-simplified-chinese-with-phrases",
       "chinese-translator:hong-kong-standard-to-simplified-chinese"
     ]
-  },
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "node-opencc": "^2.0.0"
   }
 }
