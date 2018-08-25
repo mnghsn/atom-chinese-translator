@@ -1,7 +1,7 @@
 # Chinese Translator for Atom Editor
 
 [![Build Status](https://travis-ci.org/jmlntw/atom-chinese-translator.svg?branch=master)](https://travis-ci.org/jmlntw/atom-chinese-translator)
-[![Build status](https://ci.appveyor.com/api/projects/status/wt93ufciwdmjgit5?svg=true)](https://ci.appveyor.com/project/jmlntw/atom-chinese-translator)
+[![Build status](https://ci.appveyor.com/api/projects/status/wt93ufciwdmjgit5/branch/master?svg=true)](https://ci.appveyor.com/project/jmlntw/atom-fonts-cjk/branch/master)
 [![dependencies Status](https://david-dm.org/jmlntw/atom-chinese-translator/status.svg)](https://david-dm.org/jmlntw/atom-chinese-translator)
 
 **chinese-translator** translates between Traditional Chinese and Simplified Chinese in Atom editor, with the dictionary of localized phrases and verbs. Powered by [node-opencc](https://github.com/compulim/node-opencc).
@@ -31,7 +31,7 @@ If any text are selected in the active buffer, the commands operate on the selec
 | `chinese-translator:taiwan-standard-to-simplified-chinese-with-phrases` | Translates Taiwan Standard to Simplified Chinese with Chinese phrases   |
 | `chinese-translator:hong-kong-standard-to-simplified-chinese`           | Translates Hong Kong Standard to Simplified Chinese                     |
 
-You may want to use keyboard shortcuts for triggering the above commands. This package does not provide keyboard shortcuts by default, but you can easily [define your own](http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings). To learn more, visit the [Using Atom: Basic Customization](http://flight-manual.atom.io/using-atom/sections/basic-customization/) or [Behind Atom: Keymaps In-Depth](http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/) sections in the [Atom Flight Manual](http://flight-manual.atom.io/).
+You may want to use keyboard shortcuts for triggering the above commands. This package does not provide keyboard shortcuts by default, but you can easily [define your own](https://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings). To learn more, visit the [Using Atom: Basic Customization](https://flight-manual.atom.io/using-atom/sections/basic-customization/) or [Behind Atom: Keymaps In-Depth](https://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/) sections in the [Atom Flight Manual](https://flight-manual.atom.io/).
 
 ## License
 
