@@ -1,8 +1,8 @@
 # Chinese Translator for Atom Editor
 
-[![Build Status](https://travis-ci.org/jmlntw/atom-chinese-translator.svg?branch=master)](https://travis-ci.org/jmlntw/atom-chinese-translator)
-[![Build status](https://ci.appveyor.com/api/projects/status/wt93ufciwdmjgit5/branch/master?svg=true)](https://ci.appveyor.com/project/jmlntw/atom-fonts-cjk/branch/master)
-[![dependencies Status](https://david-dm.org/jmlntw/atom-chinese-translator/status.svg)](https://david-dm.org/jmlntw/atom-chinese-translator)
+[![Build Status (Travis CI)](https://travis-ci.org/jmlntw/atom-chinese-translator.svg?branch=master)](https://travis-ci.org/jmlntw/atom-chinese-translator)
+[![Build Status (AppVeyor)](https://ci.appveyor.com/api/projects/status/wt93ufciwdmjgit5/branch/master?svg=true)](https://ci.appveyor.com/project/jmlntw/atom-chinese-translator/branch/master)
+[![Dependencies Status](https://david-dm.org/jmlntw/atom-chinese-translator/status.svg)](https://david-dm.org/jmlntw/atom-chinese-translator)
 
 **chinese-translator** translates between Traditional Chinese and Simplified Chinese in Atom editor, with the dictionary of localized phrases and verbs. Powered by [node-opencc](https://github.com/compulim/node-opencc).
 
