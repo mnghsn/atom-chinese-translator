@@ -40,12 +40,8 @@
 * Create a topic branch from `master`.
 * Squash the commit if there are too many small ones.
 * Make sure `apm --test` passes. (See [Development Setup](#development-setup).)
-* When adding a new feature:
-  * Provide convincing reasons to add this feature. It is recommended to open a suggestion issue first.
-  * Add accompanying test case.
-* When fixing a bug:
-  * Provide a detailed description in the PR.
-  * Add appropriate test coverage if applicable.
+* If adding a new feature, provide convincing reasons to add this feature.
+* If fixing a bug, provide a detailed description in the PR.
 
 ## Development Setup
 
