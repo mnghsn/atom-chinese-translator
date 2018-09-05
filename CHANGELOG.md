@@ -25,7 +25,7 @@ All notable changes to this project will be documented in this file.
 * Initial release.
 
 <!-- Tags -->
-[v1.1.0]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.1.1
+[v1.1.1]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.1.1
 [v1.1.0]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.1.0
 [v1.0.0]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.0.0
 [v0.1.1]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v0.1.1
