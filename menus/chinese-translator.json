@@ -1,7 +1,7 @@
 {
   "menu": [
     {
-      "label": "Edit",
+      "label": "Packages",
       "submenu": [
         {
           "label": "Chinese Translator",
