@@ -26,6 +26,10 @@
     "url": "https://github.com/jmlntw/atom-chinese-translator/issues"
   },
   "main": "./lib/chinese-translator",
+  "scripts": {
+    "lint": "standard --verbose",
+    "test": "npm run lint && apm test"
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
