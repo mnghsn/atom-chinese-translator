@@ -1,6 +1,7 @@
 {
   "name": "chinese-translator",
   "version": "1.1.2",
+  "private": true,
   "description": "Translates between Traditional Chinese and Simplified Chinese.",
   "keywords": [
     "chinese",
@@ -12,26 +13,23 @@
     "converter",
     "opencc"
   ],
-  "author": {
-    "name": "Jimmy Lin",
-    "email": "jmlntw@gmail.com"
-  },
-  "license": "MIT",
   "homepage": "https://atom.io/packages/chinese-translator",
+  "bugs": {
+    "url": "https://github.com/jmlntw/atom-chinese-translator/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jmlntw/atom-chinese-translator.git"
   },
-  "bugs": {
-    "url": "https://github.com/jmlntw/atom-chinese-translator/issues"
+  "license": "MIT",
+  "author": {
+    "name": "Jimmy Lin",
+    "email": "jmlntw@gmail.com"
   },
   "main": "./lib/chinese-translator",
   "scripts": {
     "lint": "standard --verbose",
     "test": "npm run lint && apm test"
-  },
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
     "node-opencc": "^2.0.0"
@@ -39,18 +37,9 @@
   "devDependencies": {
     "standard": "^14.0.0"
   },
-  "standard": {
-    "env": [
-      "browser",
-      "node",
-      "atomtest",
-      "jasmine"
-    ],
-    "globals": [
-      "atom"
-    ]
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
   },
-  "private": true,
   "activationCommands": {
     "atom-text-editor": [
       "chinese-translator:traditional-chinese-to-simplified-chinese",
@@ -63,6 +52,17 @@
       "chinese-translator:taiwan-standard-to-simplified-chinese",
       "chinese-translator:taiwan-standard-to-simplified-chinese-with-phrases",
       "chinese-translator:hong-kong-standard-to-simplified-chinese"
+    ]
+  },
+  "standard": {
+    "env": [
+      "browser",
+      "node",
+      "atomtest",
+      "jasmine"
+    ],
+    "globals": [
+      "atom"
     ]
   }
 }
