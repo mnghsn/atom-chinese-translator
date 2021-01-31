@@ -4,6 +4,8 @@
 
 **chinese-translator** translates between Traditional Chinese and Simplified Chinese in Atom editor, with the dictionary of localized phrases and verbs. Powered by [node-opencc](https://github.com/compulim/node-opencc).
 
+> :zzz: This project is not actively developed but will accept pull requests.
+
 ![A screenshot of chinese-translator](https://raw.githubusercontent.com/jmlntw/atom-chinese-translator/master/screenshot.gif)
 
 ## Installation
