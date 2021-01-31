@@ -29,7 +29,7 @@
   "main": "./lib/chinese-translator",
   "scripts": {
     "lint": "standard --verbose",
-    "test": "npm run lint && apm test"
+    "test": "npm run lint && atom --test spec"
   },
   "dependencies": {
     "node-opencc": "^2.0.0"
