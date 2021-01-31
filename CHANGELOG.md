@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.2.0] - 2021-01-31
+
+* Rewrite the code to pure JavaScript.
+* Move package menu from **Edit** to **Packages**.
+
 ## [v1.1.2] - 2018-09-05
 
 * Fix missing tag hyperlink in changelog.
@@ -29,6 +34,7 @@ All notable changes to this project will be documented in this file.
 * Initial release.
 
 <!-- Tags -->
+[v1.2.0]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.2.0
 [v1.1.2]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.1.2
 [v1.1.1]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.1.1
 [v1.1.0]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.1.0
