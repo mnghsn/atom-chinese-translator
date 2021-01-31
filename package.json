@@ -35,7 +35,7 @@
     "node-opencc": "^2.0.0"
   },
   "devDependencies": {
-    "standard": "^14.0.0"
+    "standard": "^16.0.0"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
