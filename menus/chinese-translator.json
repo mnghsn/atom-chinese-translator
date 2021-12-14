@@ -7,43 +7,43 @@
           "label": "Chinese Translator",
           "submenu": [
             {
-              "label": "Translates Traditional Chinese to Simplified Chinese",
+              "label": "Translate Traditional Chinese to Simplified Chinese",
               "command": "chinese-translator:traditional-chinese-to-simplified-chinese"
             },
             {
-              "label": "Translates Traditional Chinese to Taiwan Standard",
+              "label": "Translate Traditional Chinese to Taiwan Standard",
               "command": "chinese-translator:traditional-chinese-to-taiwan-standard"
             },
             {
-              "label": "Translates Traditional Chinese to Hong Kong Standard",
+              "label": "Translate Traditional Chinese to Hong Kong Standard",
               "command": "chinese-translator:traditional-chinese-to-hong-kong-standard"
             },
             {
-              "label": "Translates Simplified Chinese to Traditional Chinese",
+              "label": "Translate Simplified Chinese to Traditional Chinese",
               "command": "chinese-translator:simplified-chinese-to-traditional-chinese"
             },
             {
-              "label": "Translates Simplified Chinese to Taiwan Standard",
+              "label": "Translate Simplified Chinese to Taiwan Standard",
               "command": "chinese-translator:simplified-chinese-to-taiwan-standard"
             },
             {
-              "label": "Translates Simplified Chinese to Taiwan Standard with Taiwanese phrases",
+              "label": "Translate Simplified Chinese to Taiwan Standard with Taiwanese phrases",
               "command": "chinese-translator:simplified-chinese-to-taiwan-standard-with-phrases"
             },
             {
-              "label": "Translates Simplified Chinese to Hong Kong Standard",
+              "label": "Translate Simplified Chinese to Hong Kong Standard",
               "command": "chinese-translator:simplified-chinese-to-hong-kong-standard"
             },
             {
-              "label": "Translates Taiwan Standard to Simplified Chinese",
+              "label": "Translate Taiwan Standard to Simplified Chinese",
               "command": "chinese-translator:taiwan-standard-to-simplified-chinese"
             },
             {
-              "label": "Translates Taiwan Standard to Simplified Chinese with Chinese phrases",
+              "label": "Translate Taiwan Standard to Simplified Chinese with Chinese phrases",
               "command": "chinese-translator:taiwan-standard-to-simplified-chinese-with-phrases"
             },
             {
-              "label": "Translates Hong Kong Standard to Simplified Chinese",
+              "label": "Translate Hong Kong Standard to Simplified Chinese",
               "command": "chinese-translator:hong-kong-standard-to-simplified-chinese"
             }
           ]
