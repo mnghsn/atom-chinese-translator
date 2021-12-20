@@ -1,6 +1,6 @@
 {
   "name": "chinese-translator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "description": "Translates between Traditional Chinese and Simplified Chinese.",
   "keywords": [
