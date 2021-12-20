@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.2.1] - 2021-12-20
+
+* Use the imperative mood in the menu label.
+
 ## [v1.2.0] - 2021-01-31
 
 * Rewrite the code to pure JavaScript.
@@ -34,6 +38,7 @@ All notable changes to this project will be documented in this file.
 * Initial release.
 
 <!-- Tags -->
+[v1.2.1]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.2.1
 [v1.2.0]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.2.0
 [v1.1.2]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.1.2
 [v1.1.1]: https://github.com/jmlntw/atom-chinese-translator/releases/tag/v1.1.1
